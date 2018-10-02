@@ -19,7 +19,7 @@ namespace CalcTest
             double expected = 2.63;
             Calc calc = new Calc();
             double result = calc.Div(val1, val2);
-            
+
             Assert.AreEqual(expected, result, 0.01, "Division correct");
         }
     }
