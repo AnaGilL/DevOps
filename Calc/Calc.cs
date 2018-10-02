@@ -34,7 +34,8 @@ namespace CalcNs
             {
                 throw new DivideByZeroException("0 value on division");
             }
-            return val1 / 0; // intentionally incorrect code  
+            return val1 / val2;
+            //return val1 / 0; // intentionally incorrect code  
         }
         public double Mult(double val1, double val2)  
         {
